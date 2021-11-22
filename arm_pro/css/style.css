@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:root{
+    --main-bg-color:#2874f0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    background: var(--main-bg-color);
+    font-family: 'Lobster', cursive;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 75px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(154, 169, 221);
+    text-decoration: none;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.search input{
+    width: 30vw;
+    height: 20px;
+    border-radius: 5px;
+    margin: 0 10px 0 50px;
+    padding: 0 12px;
+}
+.search button{
+    font-family: 'Lobster', cursive;
+    font-weight: 600;
+}
+.slider{
+    text-align: center;
+    margin: 10px auto;
+}
+.slider img{
+    width: 85vw;
+
+}
+.card{
+    /* background-color: var(--main-bg-color); */
+    max-width: 85vw;
+    /* display: flex; */
+    margin: auto;
+    text-align: center;
+    overflow:hidden;
+    /* justify-content: center; */
+}
+.cards{
+    display: inline-flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    /* width: 11vw; */
+}
+.card h2{
+    font-family: 'Lobster', cursive;
+}
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+}
+footer{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lobster', cursive;
+}
